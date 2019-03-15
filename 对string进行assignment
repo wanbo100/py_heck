@@ -1,0 +1,8 @@
+#string 不支持assignment  我们可以先把他变成list 对list 进行修改 再把list join成strain
+s1 = 'abc'
+s1_list = list(s1)
+s1_list[0]='bbcsadasdjhkjahf'
+s1_list
+s1 = ''.join(s1_list)
+s1
+type(s1)
